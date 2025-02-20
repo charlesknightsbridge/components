@@ -1,3 +1,8 @@
 ?/
 target/
 *.resolved
+*.o
+*.ppu
+*.compiled
+LMath/demo/*
+LMath/Doc/*
