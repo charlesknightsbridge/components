@@ -14,19 +14,19 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>lmDSP</module>
         <module>lmGenMath</module>
-        <module>lmIntegrals</module>
-        <module>lmLinearAlgebra</module>
-        <module>lmMathStat</module>
         <module>lmMathUtil</module>
-        <module>lmNonLinEq</module>
-        <module>lmOptimum</module>
-        <module>lmPlotter</module>
+        <module>lmLinearAlgebra</module>
         <module>lmPolynoms</module>
+        <module>lmIntegrals</module>
         <module>lmRandoms</module>
+        <module>lmMathStat</module>
+        <module>lmOptimum</module>
+        <module>lmNonLinEq</module>
         <module>lmRegression</module>
+        <module>lmDSP</module>
         <module>lmSpecRegress</module>
+        <module>lmPlotter</module>
     </modules>
 
 </project>
