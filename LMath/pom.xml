@@ -17,9 +17,9 @@
         <module>lmDSP</module>
         <module>lmGenMath</module>
         <module>lmIntegrals</module>
-        <module>lmLinearAlgerbra</module>
+        <module>lmLinearAlgebra</module>
         <module>lmMathStat</module>
-        <module>lmMathUtils</module>
+        <module>lmMathUtil</module>
         <module>lmNonLinEq</module>
         <module>lmOPtimum</module>
         <module>lmPlotter</module>

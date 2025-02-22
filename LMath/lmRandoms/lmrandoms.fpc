@@ -1,0 +1,13 @@
+# options:
+-CX
+-XX
+-Xs
+-O2
+
+# Output:
+-FU%TARGET_PATH/$fpctarget
+
+# Units:
+
+# Very special reference - requires that lmintegrals are build first!!!
+-Fu../lmintegrals/target/units/$fpctarget
