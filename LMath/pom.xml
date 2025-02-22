@@ -21,7 +21,7 @@
         <module>lmMathStat</module>
         <module>lmMathUtil</module>
         <module>lmNonLinEq</module>
-        <module>lmOPtimum</module>
+        <module>lmOptimum</module>
         <module>lmPlotter</module>
         <module>lmPolynoms</module>
         <module>lmRandoms</module>
