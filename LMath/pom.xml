@@ -24,7 +24,7 @@
         <module>lmOPtimum</module>
         <module>lmPlotter</module>
         <module>lmPolynoms</module>
-        <module>lm<Randoms/module>
+        <module>lm<Randoms</module>
         <module>lmRegression</module>
         <module>lmSoecRegress</module>
     </modules>
