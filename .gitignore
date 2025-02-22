@@ -4,5 +4,5 @@ target/
 *.o
 *.ppu
 *.compiled
+*.bak
 LMath/demo/*
-LMath/Doc/*
