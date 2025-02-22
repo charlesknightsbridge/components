@@ -10,12 +10,12 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>components-lmoptimumh</artifactId>
+    <artifactId>components-lmoptimum</artifactId>
     <packaging>pom</packaging>
 
     <properties>
-        <main.source>lmoptimumh.pas</main.source>
-        <fpc.config>lmoptimumh.fpc</fpc.config>
+        <main.source>lmoptimum.pas</main.source>
+        <fpc.config>lmoptimum.fpc</fpc.config>
     </properties>
 
     <build>

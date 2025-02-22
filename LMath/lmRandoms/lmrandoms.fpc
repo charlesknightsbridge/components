@@ -3,12 +3,17 @@
 -XX
 -Xs
 -O2
--Mfpc
+-MObjFPC
+-Sc
+-Sg
+-Sh
+-Si
 
 # Output:
 -FU%TARGET_PATH/$fpctarget
 
 # Units:
+-Fu.
 
-# Very special reference - requires that lmintegrals are build first!!!
--Fu../lmintegrals/target/units/$fpctarget
+# Very special reference - requires that lmpolynoms are build first!!!
+-Fu../lmGenMath/target/units/$fpctarget

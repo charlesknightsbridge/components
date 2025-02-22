@@ -3,12 +3,20 @@
 -XX
 -Xs
 -O2
--Mfpc
+-MObjFPC
+-Sc
+-Sg
+-Sh
+-Si
 
 # Output:
 -FU%TARGET_PATH/$fpctarget
 
 # Units:
+-Fu.
 
 # Very special reference - requires that lmpolynoms are build first!!!
--Fu../lmpolynoms/target/units/$fpctarget
+-Fu../lmGenMath/target/units/$fpctarget
+-Fu../lmMathUtil/target/units/$fpctarget
+-Fu../lmLinearAlgebra/target/units/$fpctarget
+-Fu../lmPolynoms/target/units/$fpctarget

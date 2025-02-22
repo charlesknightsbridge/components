@@ -2,13 +2,22 @@
 -CX
 -XX
 -Xs
--Mfpc
 -O2
+-MObjFPC
+-Sc
+-Sg
+-Sh
+-Si
 
 # Output:
 -FU%TARGET_PATH/$fpctarget
 
 # Units:
+-Fu.
 
-# Very special reference - requires that lmmathstat are build first!!!
--Fu../lmmathstat/target/units/$fpctarget
+# Very special reference - requires that lmlinearalgebra are build first!!!
+-Fu../lmGenMath/target/units/$fpctarget
+-Fu../lmMathUtil/target/units/$fpctarget
+-Fu../lmLinearAlgebra/target/units/$fpctarget
+-Fu../lmMathStat/target/units/$fpctarget
+-Fu../lmRandoms/target/units/$fpctarget

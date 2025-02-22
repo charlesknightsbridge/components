@@ -95,8 +95,18 @@
             </excludes>
         </fileSet>
         <fileSet>
+            <directory>${basedir}/LMath/*/target/units/</directory>
+            <outputDirectory>lmath</outputDirectory>
+            <includes>
+                <include>*/*</include>
+            </includes>
+            <excludes>
+                <exclude>*/*.compiled</exclude>
+            </excludes>
+        </fileSet>
+        <fileSet>
             <directory>${basedir}/LMath/lmDSP/target/units/</directory>
-            <outputDirectory>lmDSP</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>
@@ -106,7 +116,7 @@
         </fileSet>
         <fileSet>
             <directory>${basedir}/LMath/lmGenMath/target/units/</directory>
-            <outputDirectory>lmGenMath</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>
@@ -116,7 +126,7 @@
         </fileSet>
         <fileSet>
             <directory>${basedir}/LMath/lmIntegrals/target/units/</directory>
-            <outputDirectory>lmIntegrals</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>
@@ -126,7 +136,7 @@
         </fileSet>
         <fileSet>
             <directory>${basedir}/LMath/lmLinearAlgebra/target/units/</directory>
-            <outputDirectory>lmLinearAlgebra</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>
@@ -136,7 +146,7 @@
         </fileSet>
         <fileSet>
             <directory>${basedir}/LMath/lmMathStat/target/units/</directory>
-            <outputDirectory>lmMathStat</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>
@@ -146,7 +156,7 @@
         </fileSet>
         <fileSet>
             <directory>${basedir}/LMath/lmMathUtils/target/units/</directory>
-            <outputDirectory>lmMathUtils</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>
@@ -156,7 +166,7 @@
         </fileSet>
         <fileSet>
             <directory>${basedir}/LMath/lmNonLinEq/target/units/</directory>
-            <outputDirectory>lmNonLinEq</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>
@@ -166,7 +176,7 @@
         </fileSet>
         <fileSet>
             <directory>${basedir}/LMath/lmOptimum/target/units/</directory>
-            <outputDirectory>lmOptimum</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>
@@ -176,7 +186,7 @@
         </fileSet>
         <fileSet>
             <directory>${basedir}/LMath/lmPlotter/target/units/</directory>
-            <outputDirectory>lmPlotter</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>
@@ -186,7 +196,7 @@
         </fileSet>
         <fileSet>
             <directory>${basedir}/LMath/lmPolynoms/target/units/</directory>
-            <outputDirectory>lmPolynoms</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>
@@ -196,7 +206,7 @@
         </fileSet>
         <fileSet>
             <directory>${basedir}/LMath/lmRandoms/target/units/</directory>
-            <outputDirectory>lmRandoms</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>
@@ -206,7 +216,7 @@
         </fileSet>
         <fileSet>
             <directory>${basedir}/LMath/lmRegression/target/units/</directory>
-            <outputDirectory>lmRegression</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>
@@ -216,7 +226,7 @@
         </fileSet>
         <fileSet>
             <directory>${basedir}/LMath/lmSpecRegress/target/units/</directory>
-            <outputDirectory>lmSpecRegress</outputDirectory>
+            <outputDirectory>lmath</outputDirectory>
             <includes>
                 <include>*/*</include>
             </includes>

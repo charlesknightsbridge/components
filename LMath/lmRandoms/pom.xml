@@ -14,7 +14,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <main.source>lmglmrandomsenmath.pas</main.source>
+        <main.source>lmrandoms.pas</main.source>
         <fpc.config>lmrandoms.fpc</fpc.config>
     </properties>
 

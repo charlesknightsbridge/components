@@ -3,9 +3,14 @@
 -XX
 -Xs
 -O2
--Mfpc
+-MObjFPC
+-Sc
+-Sg
+-Sh
+-Si
 
 # Output:
 -FU%TARGET_PATH/$fpctarget
 
 # Units:
+-Fu.

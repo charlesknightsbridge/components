@@ -14,7 +14,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <main.source>lmmathutil.pas</main.source>
+        <main.source>lmMathUtil.pas</main.source>
         <fpc.config>lmmathutil.fpc</fpc.config>
     </properties>
 
