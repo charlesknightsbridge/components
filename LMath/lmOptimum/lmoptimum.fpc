@@ -2,6 +2,7 @@
 -CX
 -XX
 -Xs
+-Mfpc
 -O2
 
 # Output:

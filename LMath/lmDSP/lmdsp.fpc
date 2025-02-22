@@ -3,6 +3,7 @@
 -XX
 -Xs
 -O2
+-Mfpc
 
 # Output:
 -FU%TARGET_PATH/$fpctarget
